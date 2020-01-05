@@ -1,5 +1,5 @@
 # blood-bank
-A responsive website for blood bank         check it [online](http://bit.ly/BloodBank1)
+A responsive website for blood bank, check it [online](http://bit.ly/BloodBank1)
 
 ...This is a responsive website for blood bank, I have used HTML5, Css3, bootstrap4, jQuery,Ajax and Slick.
 
