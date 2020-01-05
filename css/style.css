@@ -1,0 +1,846 @@
+
+#first-bar{
+    color:white;
+    font-size:17px;
+}
+
+#first-bar .contact .number-phone {
+    border-right: 1.5px solid #51657A;
+    padding-right:5px;
+    margin-right: 5px;
+}
+
+#first-bar .social{margin-bottom: 0;}
+
+#first-bar .social a {margin-right:1rem;font-size:19px;}
+
+#first-bar .arabic{color:red;padding-left:5px;}
+
+#first-bar .english{
+    border-right:2px solid #51657A;
+    padding-right:5px;
+    color: #485D73;
+}
+
+/*Second NavBar*/
+#second-bar {font-size:17px;}
+
+#second-bar .logo{width:9rem;}
+
+#second-bar .navbar-nav a {
+    border-left:1px solid rgba(136, 137, 138, 0.226);
+    color:gray;
+}
+#second-bar .collapse li:last-child a{border-left:none;}
+
+#second-bar .collapse a:hover{color:red;}
+
+#second-bar .account{
+    margin-right: auto;
+}
+
+#second-bar .new-account{
+    text-decoration: underline rgb(82, 86, 95) ;
+    margin-left: 10px;
+}
+
+#second-bar .account button{padding: 6px 23px;}
+
+/*Header*/
+#header{
+    background-image: url("../img/imgs/BG.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+#header .header-content{margin:10rem 0;}
+
+#header .header-content p{
+    font-size:25px;
+    line-height: 31px;
+}
+
+#header .header-content button{
+    width:13rem;
+    padding:8px 0 ;
+}
+
+/*second Header*/
+#second-header{
+    background-image: url("../img/imgs/about.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow : hidden;
+    margin-top:5px;
+}
+
+#second-header .header-content{
+    margin: 3rem 0rem 6rem 0rem;
+    font-size: 23px;
+}
+
+#second-header .header-content p span{color: #A60D12;}
+#second-header .header-content p{
+    line-height: 43px;
+    color:#858585;
+}
+
+/*Articles*/
+#articles{
+    background-color:#FBFBFB;
+    overflow: hidden;
+    padding-top: 2rem;
+}
+#articles .first-part{
+    border-bottom:1px solid rgb(175, 175, 175);
+    margin-top:1rem;
+}
+#articles .first-part p{
+    font-weight: bold;
+    font-size:2rem;
+}
+#articles .first-part p:hover{
+    color:#A91F21;
+}
+#articles .first-part p, span{
+    display:inline-block;
+}
+
+#articles .first-part span{
+float:left;
+margin-right:2rem;
+color:#B3B3B3;
+font-size:2rem;
+}
+#articles .second-part{
+    margin-top: 34px;
+}
+#articles.second-part .card-deck{margin-top:3rem;}
+
+#articles .second-part .card-img-top {
+    width:100%;
+    padding:5px 5px;
+}
+/*Requests */
+#requests{
+    margin-bottom:2rem;
+}
+#requests .first-part{
+    border-bottom:2px solid rgba(175, 175, 175, 0.5);
+    background-color:#FBFBFB;
+    padding-top:3rem;
+}
+#requests .first-part .title{
+font-size: 2rem;
+font-weight: bold;  
+}
+
+
+#requests .second-part{
+    background-color:#F5F5F5;
+    padding:3rem 0;
+}
+#requests .second-part .search-part{
+    margin-bottom:1rem;
+}
+#requests .second-part .search-txt{
+    border: 1px solid white;
+    border-radius: 40px;
+    width: 23rem;
+    height: 3rem;
+    padding-right: 21px;
+    font-size: 23px;
+}
+
+#requests .second-part select{
+    font-size: 36px;
+    border-radius: 50px;
+    width: 100%;
+}
+/* #requests .second-part  .second-select{
+    border-radius: 50% 0 0 53%;
+    padding: 0px 8px 0px 4px;
+    font-size: 36px;
+
+
+} */
+
+
+
+#requests .second-part .holder .fa-search {
+    border: 1px solid #fbfbfb;
+    border-radius: 100%;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 14px;
+    padding: 14px;
+    font-size: 61px;
+    margin-left: 3px;
+}
+
+#requests .second-part .volunteer{
+    padding: 5px 3px 5px 0;
+    margin-top:20px;
+    border-bottom-right-radius: 161px;
+    border-top-right-radius: 161px;
+    background-color:#FFF;
+
+}
+#requests .second-part .search-box input{
+    position: relative;
+    
+}
+#requests .second-part .search-box select{
+    position: absolute;
+    top: 0;
+}
+#requests .second-part .vol-1 {padding:0 8rem;}
+
+#requests .second-part .volunteer p{
+    margin: 0;
+    border-radius: 100%;
+    background-color: #F5F5F5;
+    font-size: 6rem;
+    padding: 19px;
+    margin-right: 8px;
+    margin-bottom: 0px;
+}
+
+#requests .second-part .volunteer ul{
+    margin: 0;
+    font-size: 22px;
+    line-height: 50px;
+    margin-right: 1rem;
+    font-weight: bold;
+}
+
+#requests .second-part .volunteer p, 
+#requests .second-part .volunteer .list-unstyled,
+#requests .second-part .volunteer button{
+    display: inline-block;
+}
+
+#requests .second-part .volunteer button{
+    margin: 2.5rem;
+    margin-left: 2rem;
+    background-color: #F5F5F5;
+    font-size: 27px;
+    padding: 21px;
+    width: 15rem;
+    font-weight: bold;
+}
+
+#requests .second-part .volunteer button:hover{
+    background-color:#2D3E50;
+    color:#fff;
+}
+
+#requests .second-part .more button{
+    width: 13rem;
+    font-size: 30px;
+    margin-top: 2rem;
+    border: 1px solid #fff;
+    height: 60px;
+}
+
+#requests .second-part .more button:hover{
+    background-color:#2D3E50;
+    color:#fff;
+}
+
+/* Call-us */
+
+#Call-us{
+    background-image: url('../img/imgs/call.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    overflow : hidden;
+}
+#Call-us .content{
+    margin: 2rem 0;
+}
+#Call-us .content h3:hover{
+    color:#A73F43;
+}
+#Call-us .content P{
+    font-size: 22px;
+    font-weight: 500;
+    margin-top:2rem;
+}
+
+#Call-us .content .whatsapp{
+    margin-top: 30px;
+
+
+}
+#Call-us .content .whatsapp p{
+    border: 1px solid white;
+    background-color: #45C42F;
+    border-radius:50px;
+    font-size: 31px;
+    padding: 1.2rem 6rem;
+    color: #fff;
+
+}
+.pra{
+    position:relative;
+
+}
+#Call-us .content .whatsapp img{
+    position: absolute;
+    left: 66px;
+    bottom:  0;
+}
+#Call-us .content .whatsapp p,img{
+    display:inline-block;
+}
+
+#app{
+    background-image:url('../img/imgs/BG-phone.png');
+    background-repeat:no-repeat;
+    overflow: hidden;
+}
+#app .app-content{
+    margin-top: 5rem;
+}
+
+#app .app-title p{
+    margin-bottom: 1rem;
+    font-size: 20px;
+    margin-top: 36px;
+    line-height: 51px;
+    font-weight: 500;
+    
+} 
+
+#app .app-links h3{
+    margin-bottom: 20px;
+
+}
+
+#app .app-image{
+    padding: 2rem 0;
+}
+
+#footer{
+    background-color:#1A1F25;
+    color:#fff;
+    padding-top: 3rem;
+
+}
+
+#footer .about a img{
+    margin-bottom: 1rem;
+}
+
+#footer .about p{
+    line-height: 34px;
+}
+
+#footer .navs{
+    display: block;
+}
+
+#footer .navs li{
+    margin-top: 18px;
+    font-size: 20px;
+}
+#footer .navs li a{
+    color:#fff;
+}
+#footer .navs .first-one{
+color:red;
+}
+
+#footer .app-footer h5{
+    margin-top: 17px;
+    color:red;
+    font-size: 20px;
+}
+#footer .app-footer ul{
+    margin-top: 3rem;
+
+}
+#footer .app-footer ul .last-one{
+    margin-top: 35px;
+}
+
+
+#social{
+    background-color:#14171C;
+    color:#fff;
+    padding-top:1rem;
+}
+
+#social .social-icons{
+    font-size: 30px;
+}
+#social .social-icons a{
+    margin-left: 9px;
+}
+
+#social .copy-right{
+    font-size: 17px;
+}
+#social .copy-right p span{
+    color:red;
+}
+
+
+/* general first nav */
+
+.log-in-nav{margin-right: 4rem;color:#CC9439}
+
+#first-bar .contact-in-nav {position: relative;}
+#first-bar .contact-in-nav .create-new-account {margin-right: 6rem;}
+#first-bar .contact-in-nav .log-in-nav {position: absolute;left: 0;}
+
+/*Protection from Disease*/
+.protection-of-disease{background-color:#FBFBFB;}
+#second-bar .request-donation {
+    margin-right: auto;
+}
+#second-bar .request-donation .btn{width: 14rem;height: 51px;}
+.protection-one {border-bottom:0.5px  gray; box-shadow: 0px -1px 19px 0px rgba(91,91,91,0.61);}
+#titles-of-article .main-titles {
+    border:1px solid rgba(61, 61, 61, 0.24);
+    padding: 10px;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+#titles-of-article h6{display: inline-block;color:#CCCCCC;}
+
+#image-of-article .main-image{margin-bottom: 2rem;}
+#image-of-article .main-image img{width: 56rem;border:1px solid #fff}
+#title-of-article .main-title{
+    position:relative;
+    padding: 22px 17px;
+    background-color: #2D3E50;
+    color:#fff;
+    border: 1px sold #fff;
+    margin-bottom:2rem;}
+#title-of-article .main-title h5,.far{display:inline}
+#title-of-article .main-title .fa-heart {    
+    position: absolute;
+    left: 24px;
+    top: 9px;
+    border: 1px solid #fff;
+    border-radius: 55%;
+    font-size: 56px;
+    padding: 10px;
+}
+
+#the-article .article{
+    border:1px solid rgba(161, 161, 161, 0.274);
+    padding: 1rem;
+}
+
+#the-article .article p{    
+    font-size: 21px;
+    line-height: 34px;
+;}
+#articles .first-part .title:hover{color:red; cursor: pointer;}
+#articles .first-part .deleted-title {display: none;}
+#articles .second-part .deleted-button a{display: none;}
+.suggested-articles {margin-bottom:3rem}
+
+#contact-with-us{margin-bottom: 2rem;}
+#contact-with-us .call-us-now{
+    border:1px solid  rgba(128, 128, 128, 0.247);
+    height: 100%;
+}
+
+#contact-with-us .contact-us{
+    border: 1px solid rgba(128, 128, 128, 0.247);
+}
+
+#contact-with-us .contact-us-input{
+    width:90%
+}    
+#contact-with-us .contact-us-input input{width: 100%;}
+.contact-us-input .contact-us-input-text-area{
+    padding: 10px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+#contact-with-us .contact-us-button{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#contact-with-us .contact-us-button button{
+    background-color: #2C3C52;
+    font-size:16px;
+    padding:10px;
+    width:90%;
+    justify-self: center;
+    color: #fff;
+
+}
+
+
+.call-us-now .title-1{ background-color: #2C3C52; color: #fff; padding: 1rem 0;}
+.call-us-now .image-1{border-bottom:1px solid  rgba(128, 128, 128, 0.247);text-align: center;}
+.call-us-now .image-1 img{
+    width: 73%;
+    margin: 3rem 0rem;
+}
+.call-us-now p{
+    font-size: 22px;
+    margin-bottom: 2rem;
+    margin-right: 3rem;
+}
+.call-us-now .info-1{margin-top: 2rem;}
+.call-us-now h3{margin-bottom: 1rem;}
+.call-us-now ul img{display:inline-block;width:3rem;margin-left:1rem;margin-top: 8px;}
+.contact-us .title-2{ background-color: #2C3C52; color: #fff; padding: 1rem 0;}
+
+.contact-us ul input{
+    /* width: 488px; */
+    margin-bottom: 32px;
+    border:1px solid  rgba(128, 128, 128, 0.247);
+    padding:13px 1rem;
+    color:rgb(133, 130, 130);
+}
+
+.contact-us .list-unstyled {
+    margin-right: 25px;
+}
+
+#data-of-log .information {
+    padding: 1.5rem 0;
+    border: 1px solid rgb(228, 228, 228);  
+    margin-bottom: 2rem;
+}
+#data-of-log .information ul{width: 80%;}
+#data-of-log .information li input,select{
+    border: 1px solid rgb(228, 228, 228);    
+    background-color:#FBFBFB;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 15px 10px;
+
+}
+
+#data-of-log .information .create-one{
+    width: 29rem;
+    background-color: #3AB54A;
+    border: 1px solid rgb(228, 228, 228);
+    padding: 10px 2rem;
+    font-size: 37px;
+    color: #fff;
+}
+
+#log .log-in {
+    border: 1px solid rgb(228, 228, 228);  
+    padding: 3rem 0;
+    margin-bottom:2rem
+}
+#log .log-in .log-image{
+    margin-top: 1rem;
+    text-align: center;
+    
+}
+#log .log-in .log-image img{
+    width: 38%;}
+
+#log .log-in ul li{
+text-align: center;
+margin-top: 2rem;
+}
+#log .log-in ul li input{
+    width:90%;
+    padding: 1rem;
+    background-color: #FBFBFB;
+    border: 1px solid rgba(128, 128, 128, 0.178);
+
+}
+#log .log-in .log-button{
+
+}
+#log .log-in .log-button button{
+    width: 79%;
+    padding: 1rem;
+    font-size: 27px;
+    color:#fff;
+    margin-bottom: 17px;
+}
+#log .log-in .log-button .log-button-1{
+background-color: #3AB54A;
+}
+#log .log-in .log-button .log-button-2{
+    background-color:#2D3E50;
+}
+#who-we-are .who-we {
+    border: 1px solid rgb(228, 228, 228);  
+    padding: 2rem 1rem;
+    line-height: 40px;
+    margin-bottom: 3rem;
+    background-color: #fff;
+}
+#who-we-are .who-image{text-align: center;}
+#who-we-are .who-image img{width: 40%;}
+#who-we-are .who-text p{font-size: 23px;margin-top: 2rem;}
+
+/* in the request donation page */
+
+.more-numbere ul li{
+    display: inline-block;
+    border: 1px solid #dedede;
+    background-color: #fff;
+    padding: 15px 24px;
+    margin-top: 1.5rem;
+    margin-right: 1px;
+    font-weight: bold;
+}
+
+/* in the request page */
+#in-the-request .the-request-data{
+    border:1px solid #DCDCDA;
+    background-color:#fff;
+    padding: 5px;
+    font-size: 16px;}
+#in-the-request .the-request-data p{display:inline-block}
+#in-the-request .the-request-data .first-col{
+    border: 1px solid rgba(128, 128, 128, 0.26);
+    background-color: #F4F4F4;
+    padding: 1rem;
+    width: 35%;
+}
+#in-the-request .the-request-data .second-col{
+    border: 1px solid rgba(128, 128, 128, 0.26);
+    background-color: rgb(247, 247, 247);
+    padding: 1rem;
+    width: 63%;
+}
+#in-the-request .the-request-data .hosp{width: 17%;}
+#in-the-request .the-request-data .hosp-name{width: 82%;}
+
+#in-the-request .the-request-data button{
+    margin-top: 1rem;
+    background-color: #2C3E52;
+    font-size: 27px;
+    padding: 21px;
+    width: 15rem;
+    border: none;
+    color: #fff;
+    
+}
+
+#in-the-request .the-request-data .the-request-text{
+
+    border: 1px solid rgba(128, 128, 128, 0.26);
+    padding: 1rem;
+    font-size: 22px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+ /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+/* @media (min-width: 991px){
+
+} */
+@media (max-width: 1025px) { 
+#header{background-size: contain;}
+#header .header-content {margin: 5.5rem 0;}
+
+#second-header {background-size: contain;}
+#second-header .header-content {margin: 3rem 0rem 1rem 0rem;font-size: 17px;}
+
+#Call-us .content h3 {font-size: 25px;}
+#Call-us .content P {font-size: 18px;}
+#Call-us .content .pra {width: 22px;}
+#Call-us .content .whatsapp img{left: 66px;}
+
+}
+
+@media (max-width: 768px) {
+#second-bar{font-size:14px;}
+#second-bar .navbar-nav a{border-left: none;}
+#second-bar .account{position: relative;right: 14px;}
+
+#second-header { background-size: contain;}
+#second-header .header-content{font-size: 15px;margin: 0;}
+#second-header .header-content p{line-height: 30px;}
+
+#header .header-content{margin: 49px 0;}
+#header .header-content h3{font-size: 18px;}
+#header .header-content p{font-size: 17px;}
+#header .header-content button{width: 8rem;padding: 6px 0;}
+
+
+
+
+#articles .first-part p {font-size: 26px;}
+#articles .first-part span {font-size: 25px;}
+#articles .second-part .card-body h5{font-size:15px}
+#articles .second-part .card-body p{font-size:14px}
+#articles .second-part .card-body a{font-size:14px}
+#requests .second-part .vol-1 {padding:0 16px;}
+#requests .second-part .volunteer button{width:10rem}
+#requests .second-part .holder .fa-search {
+    border: 1px solid #fbfbfb;
+    border-radius: 100%;
+    background-color: #fff;
+    text-align: center;
+    margin-top: 14px;
+    padding: 14px;
+    font-size: 61px;
+    margin-left: 3px;
+}
+#requests .first-part .title{font-size:25px}
+#requests .second-part .more button {
+    width: 10rem;
+    font-size: 28px;
+    margin-top: 15px;
+    height: 52px;
+}
+#requests .second-part {background-color: #F5F5F5;padding: 1rem 0 .5rem 0;}
+
+#Call-us{background-size: contain;}
+#Call-us .content{margin: 9px;}
+#Call-us .content h3{font-size:18px}
+#Call-us .content P{font-size:16px;margin-top: 7px;}
+#Call-us .content .whatsapp{margin-top: 0;}
+#Call-us .content .whatsapp p{font-size: 19px;padding: 13px 48px;}
+#Call-us .content .whatsapp img{
+    left: 90px;
+    top: 98px;
+    bottom: 0;
+    width: 63px;}
+
+#app .app-content .app-title h3{ font-size: 23px;}
+#app .app-content .app-title p{
+    font-size: 18px;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    margin-top: 11px;
+    line-height: 33px;
+    font-weight: 460;
+}
+#app .app-content .app-links h3{font-size: 24px;margin-bottom: 15px;}
+#app .app-content .app-links img{width: 10rem;}
+#app .app-image img{width: 22rem;}
+#second-bar .request-donation .btn {width:6rem;}
+#in-the-request .the-request-data{font-size:14px}
+
+}
+
+
+@media (max-width: 426px) {
+    #first-bar .navbar{text-align: center;}
+    #second-bar {font-size:18px;}
+    #second-bar .account {margin-right: 10rem;}
+    /* #header{background-size: contain;} */
+    #header{background-image: none;text-align: center;}
+
+    #header .header-content{margin: 1rem 0;}
+    #header .header-content h3{font-size: 14px;}
+    #header .header-content p{font-size: 14px;}
+    #header .header-content button{width: 4rem;padding:0;}
+
+    #second-header{background-image: none;}
+    #second-header .header-content{font-size: 15px;margin: 0;}
+    #articles .first-part p {font-size: 25px;}
+    #articles .first-part span {font-size: 25px;}
+
+    #requests .second-part .volunteer {
+    padding: 5px 3px 5px 0;
+    margin-top: 10px;
+    border-bottom-right-radius: 161px;
+    border-top-right-radius: 161px;
+    background-color: #FFF;
+    }
+
+    #requests .second-part .volunteer p {
+    margin: 0;
+    border-radius: 100%;
+    background-color: #F5F5F5;
+    font-size: 3rem;
+    padding: 12px;
+    margin-right: 8px;
+    }
+
+    #requests .second-part .volunteer ul {
+    margin: 0;
+    font-size: 15px;
+    line-height: 27px;
+    margin-right: 1rem;
+    font-weight: bold;
+    }
+    #requests .second-part .holder .fa-search {
+        border: 1px solid #fbfbfb;
+        border-radius: 100%;
+        background-color: #fff;
+        margin-top: 0px;
+        padding: 14px;
+        font-size: 61px;
+    }
+    #requests .second-part .holder{text-align: center;}
+    #requests .second-part .volunteer button {
+        margin: 0;
+        margin-top: 3.5rem;
+        margin-left: 1rem;
+        background-color: #F5F5F5;
+        font-size: 19px;
+        padding: 3px;
+        width: 5rem;
+        font-weight: bold;
+    }
+
+
+
+    #requests .second-part .more button {
+        width: 8rem;
+        font-size: 26px;
+        margin-top: 12px;
+        height: 46px;
+    }
+
+#Call-us{background-image: none;}
+#Call-us .content{margin: 9px;}
+#Call-us .content h3{font-size:18px}
+#Call-us .content P{font-size:16px;margin-top: 7px;}
+#Call-us .content .whatsapp{margin-top: 0;}
+#Call-us .content .pra{width: auto;}
+#Call-us .content .whatsapp p{font-size: 17px;padding: 13px 48px;}
+#Call-us .content .whatsapp img{
+    left: 75px;
+    top: 96px;
+}
+
+    #footer .about img{width: 8rem;}
+    #footer .about h3{font-size: 20px;}
+    #footer .about p{font-size: 16px;}
+    #footer .app-footer h5{font-size: 19px;text-align: center;}
+    #footer .app-footer ul li img{width:10rem;margin-right:7rem;}
+
+    #social .social-icons{text-align: center;}
+    #social .social-icons a{font-size: 25px;}
+    #social .copy-right{text-align: center;}
+    #in-the-request .the-request-data .hosp{width: 35%;}
+    #in-the-request .the-request-data .hosp-name{width: 63%;}
+    }
+
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
